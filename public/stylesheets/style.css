@@ -2,7 +2,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.home-page {
+#home-page {
     background-image: url(/images/Palau-de-les-Arts-Reina-Sofia_Santiago-Calatrava.jpg);
     background-position: 0;
     background-size: cover;
@@ -14,4 +14,17 @@ body {
     /*justify-content: center;*/
     flex-direction: column;
     justify-content: flex-start;
+}
+
+#Santiago-Calatrava-picture > img {
+    width: 1080px;
+}
+
+#projects-pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects-pictures > img {
+    width: 1080px;
 }
